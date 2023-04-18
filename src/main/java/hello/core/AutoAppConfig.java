@@ -19,10 +19,10 @@ import org.springframework.context.annotation.FilterType;
 public class AutoAppConfig {
 
     // 과거 스프링부트 버전에서는 수동등록빈이 우선권을 가진다. 로그 확인 -> 최근 : 에러발생
-    @Bean(name = "memoryMemberRepository")
-    public MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    public MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 
 
 }
