@@ -41,7 +41,7 @@ public class OrderServiceImpl implements OrderService{
     // @Primary : 우선순위 설정          @Qualifier 동시적용시 구체적인 @Qualifier 선적용
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
-        this.discountPolicy = discountPolicy;
+        this.discountPolicy = discountPolicy; 
     }
 
 
